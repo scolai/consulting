@@ -1,4 +1,4 @@
-body {  }
+@forward "modules/site-nav.scss";
 
 .page {
     height: 100vh;
@@ -21,3 +21,4 @@ body {  }
 .contact {
     font-size: 1.75rem;
 }
+
