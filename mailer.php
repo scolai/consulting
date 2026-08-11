@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // Load secure config
-$config = include '../secure/mail-config.php';
+$config = include __DIR__ . '/../secure/mail-config.php';
 
 $mail = new PHPMailer(true);
 
